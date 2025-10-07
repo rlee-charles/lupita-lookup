@@ -9,7 +9,7 @@
 
   <name>lupitalookup</name>
   <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
-  <url>https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple/1.1.1</url>
+  <url>http://www.findjar.com/jar/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar.html</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
