@@ -53,8 +53,8 @@ public class BirthdayExample {
       birthdayMap.put(name, birthday);
 
       // print the names and birthdays
-      System.out.println("name = " + name);
-      System.out.println("birthday = " + birthday);
+      //System.out.println("name = " + name);
+      //System.out.println("birthday = " + birthday);
     }
   }
 
@@ -77,11 +77,18 @@ public class BirthdayExample {
 
     // get user input
     Scanner input = new Scanner(System.in);
-    System.out.print("Enter a name:");
+    System.out.print("Enter a full name:");
     String name = input.nextLine();
+    
+    //Searches through the map for the given first and last name. If it exists, it'll print the corresponding birthday.
+    for(String i : birthdayMap.keySet()){
+          if (i.equals(name)) {
 
-    // print user input
-    System.out.println("name = " + name);
+            System.out.println(i + ": " + birthdayMap.get(i));
+
+          }
+        }
+
 
     // close the scanner
     input.close();
