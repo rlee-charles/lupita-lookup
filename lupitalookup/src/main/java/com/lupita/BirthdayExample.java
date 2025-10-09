@@ -65,7 +65,7 @@ public class BirthdayExample {
      * extra credit module on Files, Directories, and Folders in Canvas.
      */
     String pathToFile =
-      "C:\\Users\\sansl\\Downloads\\Misc\\Documents\\GitHub\\lupita-lookup\\lupitalookup\\src\\main\\java\\com\\lupita";
+      "birthday.json";
 
     // students should change the code below in order to implment their own solution
 
